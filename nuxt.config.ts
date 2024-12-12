@@ -4,9 +4,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      title: 'Keris',
+      title: 'Nuxt 3 | Tailwind',
       meta: [
-        { name: 'description', content: 'Everything about Keris' }
+        { name: 'description', content: 'Everything about Nuxt | Tailwind' }
       ],
       link: [
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }

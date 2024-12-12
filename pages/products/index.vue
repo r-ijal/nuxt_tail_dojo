@@ -19,9 +19,9 @@ definePageMeta({
 const { data: products }= await useFetch('https://fakestoreapi.com/products')
 
 useHead({
-  title: 'Keris Product | Merch',
+  title: 'Product | Merch',
   meta: [
-    { name: 'description', content: 'Keris Products' }
+    { name: 'description', content: 'Nuxt Products' }
   ]
 })
 </script>
